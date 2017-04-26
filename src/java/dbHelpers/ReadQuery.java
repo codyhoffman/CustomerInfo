@@ -63,9 +63,9 @@ public class ReadQuery {
     public String getHTMLTable() {
         
         String table = "";
-        table += "<table>";
+        table += "<table class='table table-border table-hover table-striped'>";
         // begin table header
-        
+        table += "<thead>";
         table += "<tr>";
         
         table += "<th>";
@@ -105,6 +105,7 @@ public class ReadQuery {
         table += "</th>";
 
         table += "</tr>";
+        table += "</thead>";
         
         try {
             while(this.results.next()) {
@@ -120,6 +121,7 @@ public class ReadQuery {
                 customer.setZip(this.results.getString("zip"));
                 customer.setEmailAddr(this.results.getString("emailAddr"));
                 
+                table += "<tbody>";
                 table += "<tr>";
                 
                 table += "<td>";
@@ -163,6 +165,7 @@ public class ReadQuery {
                 table += "</td>"; 
                 
                 table += "</tr>";
+                table += "</tbody>";
             }
         } catch (SQLException ex) {
             Logger.getLogger(ReadQuery.class.getName()).log(Level.SEVERE, null, ex);
