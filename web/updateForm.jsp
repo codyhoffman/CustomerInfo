@@ -78,9 +78,9 @@
             </table>
             
             <br><br>
-           
-            <input type="submit" name="submit" value="Update">
             <input type="reset" name="reset" value="Clear">
+            <input type="submit" name="submit" value="Update">
+            
             
             
         </form>

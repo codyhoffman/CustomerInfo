@@ -5,7 +5,7 @@
         </div>
         <ul class="nav navbar-nav">
             <li><a href="index.jsp">Home</a></li>
-            <li><a href="read">View All</a></li>
+            <li><a href="staticRead">View All</a></li>
             <li><a href="admin.jsp">Admin</a></li>
         </ul>
     </div>
