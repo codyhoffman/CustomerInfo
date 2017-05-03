@@ -63,7 +63,7 @@ public class ReadQuery {
     public String getHTMLTable() {
         
         String table = "";
-        table += "<table class='table table-border table-hover table-striped'>";
+        table += "'<table class='table table-border table-hover table-striped'>";
         // begin table header
         table += "<thead>";
         table += "<tr>";
