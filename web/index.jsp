@@ -22,7 +22,7 @@
     <div class="container-fluid" id="homeSearch">
         <div class="col-sm-12 col-sm-offset-4">
             <form>
-                <label>Search for Customer Contact Info:</label>
+                <label>Search for Customer Info:</label>
                 <div class="form-group" style="width: 25%">
                     <input type="email" class="form-control" id="email">
                 </div>

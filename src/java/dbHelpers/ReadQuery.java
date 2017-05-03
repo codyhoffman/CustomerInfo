@@ -117,7 +117,7 @@ public class ReadQuery {
                 customer.setAddr1(this.results.getString("addr1"));
                 customer.setAddr2(this.results.getString("addr2"));
                 customer.setCity(this.results.getString("city"));
-                customer.setState(this.results.getString("state"));
+                customer.setState(this.results.getString("custstate"));
                 customer.setZip(this.results.getString("zip"));
                 customer.setEmailAddr(this.results.getString("emailAddr"));
                 

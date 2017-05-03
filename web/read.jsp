@@ -27,7 +27,7 @@
             <form>
                 <label>Search for Customer Contact Info:</label>
                 <div class="form-group" style="width: 25%">
-                    <input type="email" class="form-control" id="email">
+                    <input type="input" class="form-control">
                 </div>
                 <button type="submit" class="btn btn-default">Search</button>
             </form>
