@@ -19,17 +19,7 @@
     <%@ include file="includes/nav.jsp" %>
     <%@ include file="includes/header.jsp" %>
     
-    <div class="container-fluid" id="homeSearch">
-        <div class="col-sm-12 col-sm-offset-4">
-            <form>
-                <label>Search for Customer Info:</label>
-                <div class="form-group" style="width: 25%">
-                    <input type="email" class="form-control" id="email">
-                </div>
-                <button type="submit" class="btn btn-default">Search</button>
-            </form>
-        </div>
-    </div>
+    <%@ include file="includes/search.jsp" %>
     
     <%@ include file="includes/footer.jsp" %>
 </body>

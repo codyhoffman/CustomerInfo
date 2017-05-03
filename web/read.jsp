@@ -21,18 +21,8 @@
 <body>
     <%@ include file="includes/nav.jsp" %>
     <%@ include file="includes/header.jsp" %>
+    <%@ include file="includes/search.jsp" %>
     
-    <div class="container-fluid" id="homeSearch">
-        <div class="col-sm-12 col-sm-offset-4">
-            <form>
-                <label>Search for Customer Contact Info:</label>
-                <div class="form-group" style="width: 25%">
-                    <input type="input" class="form-control">
-                </div>
-                <button type="submit" class="btn btn-default">Search</button>
-            </form>
-        </div>
-    </div>
     <div class="container">
         <div class="table-responsive">
             <%= table %>
